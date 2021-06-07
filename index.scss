@@ -1,0 +1,30 @@
+@import "group";
+
+.mx-btn {
+  // 覆盖默认 18px 的值
+  font-size: 1rem;
+  // 覆盖默认的 block 值，和 HTML 一致
+  display: inline-block;
+  // 通过普通行高和内边距撑开按钮，这样按钮内部文字换行后间距不会过大
+  line-height: 1.5;
+  padding: .5rem .75rem;
+
+  &::after {
+    // 去掉默认的边框
+    border: 0;
+  }
+
+  &[disabled] {
+    opacity: 0.65;
+  }
+
+  &-primary {
+    color: var(--mx-colors-primary-fg-500);
+    background: var(--mx-colors-primary-500);
+  }
+
+  &-secondary {
+    color: var(--mx-colors-secondary-fg-500);
+    background: var(--mx-colors-secondary-500);
+  }
+}
