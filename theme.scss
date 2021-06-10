@@ -1,0 +1,33 @@
+.mx-btn-theme {
+  // TODO 没有指定 theme 时，默认是 pill，可以改为 full
+  // TODO 是否有其他方案
+  // 按钮占满父级容器的剩余空间
+  &,
+  & .mx-btn-group {
+    display: flex;
+    flex: 1;
+  }
+
+  // 样式1 圆角按钮，象药片
+  &-pill {
+    // TODO 是否由按钮自己控制间距，这样的话 theme 不用作为按钮的直接父容器
+    margin: .5rem;
+
+    & .mx-btn {
+      border-radius: 9999px;
+    }
+  }
+
+  // 样式2 长方形按钮，铺满整个容器
+  &-full {
+    display: flex;
+    min-height: 3rem;
+
+    & .mx-btn {
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+      // 去掉默认圆角
+      border-radius: 0;
+    }
+  }
+}
