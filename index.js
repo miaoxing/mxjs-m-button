@@ -3,9 +3,14 @@ import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import './index.scss';
 
-const Button = ({variant, className, children, ...props}) => {
+const Button = ({variant, size, className, children, ...props}) => {
   return (
-    <BaseButton className={clsx('mx-btn', variant && ('mx-btn-' + variant), className)} {...props}>
+    <BaseButton className={clsx(
+      'mx-btn',
+      variant && ('mx-btn-' + variant),
+      size && ('mx-btn-' + size),
+      className,
+    )} {...props}>
       {children}
     </BaseButton>
   );
