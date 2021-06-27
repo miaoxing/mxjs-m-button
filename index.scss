@@ -10,8 +10,8 @@
   padding: .5rem .75rem;
 
   &::after {
-    // 去掉默认的边框
-    border: 0;
+    // 隐藏默认的边框颜色，以便自定义颜色
+    border-color: transparent;
   }
 
   &[disabled] {
@@ -26,6 +26,24 @@
   &-secondary {
     color: var(--mx-colors-secondary-fg-500);
     background: var(--mx-colors-secondary-500);
+  }
+
+  &-outline-primary {
+    color: var(--mx-colors-primary-500);
+    background: var(--mx-colors-primary-fg-500);
+
+    &::after {
+      border-color: var(--mx-colors-primary-500);
+    }
+  }
+
+  &-outline-secondary {
+    color: var(--mx-colors-secondary-500);
+    background: var(--mx-colors-secondary-fg-500);
+
+    &::after {
+      border-color: var(--mx-colors-secondary-500);
+    }
   }
 
   &-sm {
