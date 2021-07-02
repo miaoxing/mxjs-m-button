@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup basic 1`] = `
+<div>
+  <taro-view-core
+    class="mx-btn-group"
+  >
+    <taro-button-core
+      class="mx-btn"
+    >
+      foo
+    </taro-button-core>
+    <taro-button-core
+      class="mx-btn"
+    >
+      bar
+    </taro-button-core>
+  </taro-view-core>
+</div>
+`;

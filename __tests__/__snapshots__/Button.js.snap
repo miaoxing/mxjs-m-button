@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button basic 1`] = `
+<div>
+  <taro-button-core
+    class="mx-btn"
+  >
+    test
+  </taro-button-core>
+</div>
+`;
+
+exports[`Button variant: primary 1`] = `
+<div>
+  <taro-button-core
+    class="mx-btn mx-btn-primary"
+  >
+    primary
+  </taro-button-core>
+</div>
+`;
+
+exports[`Button variant: secondary 1`] = `
+<div>
+  <taro-button-core
+    class="mx-btn mx-btn-secondary"
+  >
+    secondary
+  </taro-button-core>
+</div>
+`;
