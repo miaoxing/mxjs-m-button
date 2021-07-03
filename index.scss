@@ -2,12 +2,12 @@
 
 .mx-btn {
   // 覆盖默认 18px 的值
-  font-size: 1rem;
+  font-size: var(--mx-fontSizes-base);
   // 覆盖默认的 block 值，和 HTML 一致
   display: inline-block;
   // 通过普通行高和内边距撑开按钮，这样按钮内部文字换行后间距不会过大
   line-height: 1.5;
-  padding: .5rem .75rem;
+  padding: var(--mx-space-2) var(--mx-space-3);
 
   &::after {
     // 隐藏默认的边框颜色，以便自定义颜色
@@ -47,12 +47,12 @@
   }
 
   &-sm {
-    font-size: .875rem;
-    padding: .25rem .5rem;
+    font-size: var(--mx-fontSizes-sm);
+    padding: var(--mx-space-1) var(--mx-space-2);
   }
 
   &-xs {
-    font-size: .75rem;
-    padding: .125rem .25rem;
+    font-size: var(--mx-fontSizes-xs);
+    padding: var(--mx-space-0\.5) var(--mx-space-1); // stylelint-disable number-leading-zero
   }
 }
