@@ -1,5 +1,3 @@
-import React from 'react';
-import {ButtonGroup} from '..';
 import {Button, ButtonGroup} from '..';
 import {render} from '@testing-library/react';
 
