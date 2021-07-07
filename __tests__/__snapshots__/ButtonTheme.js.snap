@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonTheme basic 1`] = `
+<div>
+  <taro-view-core
+    class="mx-btn-theme mx-btn-theme-pill"
+  >
+    <taro-button-core
+      class="mx-btn"
+    >
+      foo
+    </taro-button-core>
+  </taro-view-core>
+</div>
+`;
