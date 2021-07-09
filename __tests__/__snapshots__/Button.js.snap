@@ -10,6 +10,26 @@ exports[`Button basic 1`] = `
 </div>
 `;
 
+exports[`Button href 1`] = `
+<div>
+  <taro-button-core
+    class="mx-btn"
+  >
+    secondary
+  </taro-button-core>
+</div>
+`;
+
+exports[`Button href 2`] = `
+Array [
+  Array [
+    Object {
+      "url": "next?id=1",
+    },
+  ],
+]
+`;
+
 exports[`Button variant: primary 1`] = `
 <div>
   <taro-button-core
