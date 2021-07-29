@@ -18,12 +18,19 @@
     opacity: 0.65;
   }
 
-  &-primary {
+  &:not([disabled]):active {
+    opacity: 0.8;
+  }
+
+  &-primary,
+  &-primary:not([disabled]):active {
+    // NOTE: Taro :active 会改为灰色背景，黑色字体，需覆盖掉
     color: var(--mx-colors-primary-fg-500);
     background: var(--mx-colors-primary-500);
   }
 
-  &-secondary {
+  &-secondary,
+  &-secondary:not([disabled]):active {
     color: var(--mx-colors-secondary-fg-500);
     background: var(--mx-colors-secondary-500);
   }
