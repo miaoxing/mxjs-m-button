@@ -12,6 +12,9 @@
   &::after {
     // 隐藏默认的边框颜色，以便自定义颜色
     border-color: transparent;
+    // 加上 .h5-button 移除的 ::after 样式
+    border-width: 1PX;
+    border-style: solid;
   }
 
   &[disabled] {
