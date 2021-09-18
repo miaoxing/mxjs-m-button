@@ -19,7 +19,7 @@
   "dependencies": {
     "@tarojs/components": "^3.2.10",
     "clsx": "^1.1.1",
-    "@fower/taro": "^1.16.0",
+    "@fower/taro": "^1.52.0",
     "prop-types": "^15.7.2",
     "@tarojs/taro": "^3.2.10",
     "@mxjs/theme": "^0.1.0"
