@@ -1,3 +1,26 @@
+## [0.1.2](https://github.com/miaoxing/mxjs-m-button/compare/v0.1.1...v0.1.2) (2022-01-12)
+
+
+### Bug Fixes
+
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.59.0` ([b03ab3b](https://github.com/miaoxing/mxjs-m-button/commit/b03ab3bd1747f5339e72732005a285d625d8da02))
+
+
+### Features
+
+* **taro:** 限制 taro 为 3.3.x，3.4 有 BREAKING CHANGES ([cce973e](https://github.com/miaoxing/mxjs-m-button/commit/cce973ed0ad99868f65b4036bfbec8aedac011a1))
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.61` ([8405e29](https://github.com/miaoxing/mxjs-m-button/commit/8405e29debe0d60cbaa0303e6f51100ff2a3c9cb))
+* 更新 taro 到 `^3.3.20` ([321ae2a](https://github.com/miaoxing/mxjs-m-button/commit/321ae2ad8ecfaa39ab595ce0104730382e210ff0))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/theme:** upgrade from `0.1.1` to `0.1.2`
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+
 ## [0.1.1](https://github.com/miaoxing/mxjs-m-button/compare/v0.1.0...v0.1.1) (2021-10-28)
 
 
