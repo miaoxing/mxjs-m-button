@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/miaoxing/mxjs-m-button/compare/v0.1.3...v0.1.4) (2022-03-31)
+
+
+### Features
+
+* 更新 `fower` 到 `^1.70.0` ([ae77de6](https://github.com/miaoxing/mxjs-m-button/commit/ae77de6ba769031608ed1b2a165c8b766edeafdb))
+
 ## [0.1.3](https://github.com/miaoxing/mxjs-m-button/compare/v0.1.2...v0.1.3) (2022-02-05)
 
 
