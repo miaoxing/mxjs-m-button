@@ -1,3 +1,19 @@
+# [1.1.0](https://github.com/miaoxing/mxjs-m-button/compare/v1.0.1...v1.1.0) (2023-01-01)
+
+
+### Features
+
+* 更新 `fower` 到 `~1.75.0` ([84d0438](https://github.com/miaoxing/mxjs-m-button/commit/84d043856755651b290c2145f868ddaabbab8f3c))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/theme:** upgrade from `1.0.1` to `1.0.2`
+* **@miaoxing/dev:** upgrade from `8.1.3` to `8.2.0`
+
 ## [1.0.1](https://github.com/miaoxing/mxjs-m-button/compare/v1.0.0...v1.0.1) (2022-08-02)
 
 
