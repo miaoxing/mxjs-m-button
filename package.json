@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/m-button",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -22,7 +22,7 @@
     "@fower/taro": "~1.75.0",
     "prop-types": "^15.7.2",
     "@tarojs/taro": "~3.3.20",
-    "@mxjs/theme": "^1.0.8"
+    "@mxjs/theme": "^1.1.0"
   },
   "devDependencies": {
     "react": ">=16.13.1",

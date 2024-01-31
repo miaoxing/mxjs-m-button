@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/miaoxing/mxjs-m-button/compare/v1.1.6...v1.2.0) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([312200f](https://github.com/miaoxing/mxjs-m-button/commit/312200ffcd9233c42de054bb2ab3ecc212d26686))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/theme:** upgrade from `1.0.8` to `1.1.0`
+
 ## [1.1.6](https://github.com/miaoxing/mxjs-m-button/compare/v1.1.5...v1.1.6) (2024-01-08)
 
 
