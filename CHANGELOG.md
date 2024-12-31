@@ -1,3 +1,14 @@
+## [1.2.6](https://github.com/miaoxing/mxjs-m-button/compare/v1.2.5...v1.2.6) (2024-12-31)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/theme:** upgrade from `1.1.5` to `1.1.6`
+* **@miaoxing/dev:** upgrade from `9.3.0` to `9.3.1`
+
 ## [1.2.5](https://github.com/miaoxing/mxjs-m-button/compare/v1.2.4...v1.2.5) (2024-12-30)
 
 
